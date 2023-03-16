@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Music Player</title>
+</head>
+<body>
+  <audio src="DJANGO UNCHAINED - MAIN THEME - Django.mp3" id="play-music"></audio>
+  
+  <div class="container">
+  <div class="inner shadow">
+        <!-- <div class="icon-initial">
+     <button><i class="fa-solid fa-angle-down" id="down"></i></button>   
+
+  <button> <i class="fa-solid fa-ellipsis" id="ellipsis"></i></button>
+       
+    </div> -->
+   
+    <h3 id="playing-text">Now Playing</h3>
+        <div class="image">
+             <img src="tinywow_django_album_14019132.jpg" alt="">
+            </div>
+        <div class="card-body">
+            <h3>Django-Rocky Roberts</h3>
+<button id="volumeUp"><i class="fa-sharp fa-solid fa-volume-high"></i></button>
+            <input type="range" id="volume" min="0" step="1" max="50" value="50" >
+
+        </div>
+        <div class="icons ">
+            
+        <!-- <button><i class="fa-solid fa-shuffle" id="shuffle"></i></button> -->
+        <button ><i class="fa-solid fa-backward-step" id="backward"></i></button>
+        <button  id="resume-song"><i class="fa-solid fa-play" ></i></button>
+        <button><i class="fa-solid fa-forward-step" id="forward"></i></button>
+ 
+   </div>
+    </div> 
+</div> 
+    <script src="music.js"></script>
+</body>
+</html>

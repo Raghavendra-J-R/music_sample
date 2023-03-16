@@ -1,0 +1,129 @@
+body
+{
+  background-color: #E1EEDD;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: grid;
+  place-items: center; */
+}
+
+
+
+#playing-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.0rem;
+  text-align: center;
+}
+
+.card-body h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight:bolder; */
+}
+
+
+.card-body i
+{
+color: black;
+}
+
+
+.inner {
+
+  width: 400px;
+  height: 550px;
+  background: #FAECD6;
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #00000015;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(250, 250, 250) 0.2em solid;
+}
+
+.inner:hover {
+  border: #000000 0.2em solid;
+
+}
+
+.image img {
+  /* outline-style: 1px solid black; */
+  padding-left: 3.5rem;
+  /* display: grid;
+  place-items: center; */
+  scale: 0.75;
+}
+
+img:hover {
+  filter: drop-shadow(19px 2px 17px #000);
+
+}
+
+
+
+
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+
+
+}
+
+.icons button {
+  border-style: 1px solid black;
+  border-style: none;
+  /* border-radius: 50%; */
+  padding: 1.0rem;
+  background: white
+    /* box-shadow:  4px 4px 6px #949494,
+               -14px -14px 28px #ffffff; */
+
+}
+
+
+
+button {
+
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 0.75rem;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.icons button i {
+
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+.text {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+
+.card-body {
+  text-align: center;
+}
+
+
